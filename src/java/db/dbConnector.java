@@ -21,7 +21,7 @@ public class dbConnector {
                 Class.forName("com.mysql.jdbc.Driver");
 
                 String connectionUrl = "jdbc:mysql://localhost:3306/log15";
-                conn = DriverManager.getConnection(connectionUrl, "root", "Giulio94");
+                conn = DriverManager.getConnection(connectionUrl, "root", "1234");
             }
             catch(Exception e){
                 System.out.println(e);
