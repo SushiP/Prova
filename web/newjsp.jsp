@@ -18,7 +18,7 @@
             DbInterrogator dbint = new DbInterrogator(dbConnector.getConnection());
             String table;
         %>
-        <h1>Hello World!</h1>
+        <h1>Hello Worfdffld!</h1>
         <%
             try{
                 table = dbint.getTable("utente");
